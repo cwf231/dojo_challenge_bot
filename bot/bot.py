@@ -2,7 +2,7 @@ import os
 import discord
 import requests
 
-TOKEN = os.environ.get('DISCORD_TOKEN')
+TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = 'BOT-TEST'
 
 client = discord.Client()
